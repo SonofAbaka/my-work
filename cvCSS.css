@@ -1,0 +1,152 @@
+
+
+* {
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* flex-direction: row; */
+    font-size: 20px;
+    /* overflow:hidden ; */
+    background: rgb(217, 232, 238);
+
+
+}
+img {
+    background-size: contain;
+    /* border: 1px solid black; */
+    width: 133%;
+    margin-left: -10px;
+    margin-top: -11px;
+}
+h1, h2, h3 {
+    opacity: calc(0.5);
+    font-size: 30px;
+}
+
+.contain {
+    background-color: rgb(180, 175, 175);
+    width: 100%;
+    border-radius: 10px;
+    line-height: normal;
+}
+
+.photoshop {
+  width: 80%;
+  background-color: rgb(6, 66, 6);  
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.photography {
+    width: 75%;
+    background-color: rgb(6, 66, 6);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.illustrator {
+    width: 50%;
+    background-color: rgb(6, 66, 6);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.media {
+    width: 90%;
+    background-color: rgb(6, 66, 6);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.english, .spanish, .german {
+    background-color: rgb(6, 66, 6);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.spanish {
+    width: 60%;
+}
+
+.german {
+    width: 40%;
+}
+
+
+
+.leftside {
+    /* box-shadow: 2px 3px 20px gray; */
+    border-radius: 2px;
+    
+}
+
+/* .lejend {
+    display: none;
+    visibility: hidden;
+} */
+
+.leftside {
+    /* position: fixed; */
+    /* box-shadow: 2px 3px 20px gray; */
+    /* height: 100vh; */
+    padding: 10px;
+    width: 300px;
+    line-height: 30px;
+   
+}
+
+.mainpage {
+    
+    box-shadow: -2px -3px 10px gray;
+    /* border: 2px solid red; */
+    padding: 20px;
+    margin-left: 80px ;
+    /* box-shadow: 2px 3px 20px gray; */
+    /* border-radius: 2px; */
+    width: 80%;
+    /* height: auto; */
+    margin-top: -40px;
+    line-height: 40px;
+    
+}
+    
+
+
+section section.mainpage {
+    margin: 10px 20px;
+    /* border: 5px solid red; */
+    margin-top: 20px;
+
+}
+
+/* media query */
+
+@media screen and (max-width:600px) {
+    .container {
+        display: block;
+
+    }
+    img {
+        width: 200%;
+    }
+    .mainpage {
+        position: relative;
+        top: 50px;
+        right: 30px;
+    }
+    
+}
